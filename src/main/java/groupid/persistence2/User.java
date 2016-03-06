@@ -14,6 +14,15 @@ public class User {
 	private String name;
 	private String age;
 	private String email;
+	// One more property Added
+	private String city;
+	
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
 	public String getId() {
 		return id;
 	}
